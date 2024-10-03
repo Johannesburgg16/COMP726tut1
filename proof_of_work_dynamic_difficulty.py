@@ -39,8 +39,8 @@ def proof_of_work(difficulty, target_time):
     return attempts, hash_result, time_taken, difficulty
 
 # Set the initial difficulty and target time
-difficulty = 25  # Start with a higher difficulty to make it more likely the block is found too slow
-target_time = 5  # Set a lower target time for block discovery
+difficulty = 20  # Start with a higher difficulty to make it more likely the block is found too slow
+target_time = 10  # Set a lower target time for block discovery
 
 # Run the proof-of-work script with difficulty adjustment
 print(f"Starting Proof-of-Work with Difficulty {difficulty}")

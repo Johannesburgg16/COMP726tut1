@@ -36,4 +36,4 @@ print("\nRunning Proof-of-Work with Difficulty 2:")
 attempts_2, final_hash_2 = proof_of_work(difficulty_2)
 
 print(f"\nResults:\nDifficulty 1 - Attempts: {attempts_1}, Final Hash: {final_hash_1}")
-print(f"Difficulty 2 - Attempts: {attempts_2}, Final Hash: {final_hash_2}")
+print(f"Difficulty 2 - Attemp`ts: {attempts_2}, Final Hash: {final_hash_2}")
